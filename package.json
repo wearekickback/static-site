@@ -1,0 +1,14 @@
+{
+  "name": "blockparty-site",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">\r   <a href=\"http://materializecss.com/\">\r     <img src=\"http://materializecss.com/res/materialize.svg\" width=\"150\">\r   </a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "materialize-css": "^0.100.2"
+  }
+}
