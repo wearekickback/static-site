@@ -18,12 +18,13 @@
        })();
      </script>
      <!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
      <!--Import materialize.css-->
-     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+     <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
      <style media="screen">
       .brand-logo {
-       font-family: Lobster;
+       font-family: 'Muli', sans-serif; 
       }
      </style>
      <!--Let browser know website is optimized for mobile-->
@@ -35,10 +36,10 @@
      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
      <script type="text/javascript" src="js/materialize.min.js"></script>
 
-     <nav class="blue-grey" role="navigation">
+     <nav role="navigation">
        <div class="nav-wrapper container">
-         <img size="50" src="/images/nightclub-white.png" style="color: rgb(255, 255, 255); background-color: rgb(96, 125, 139); user-select: none; display: inline-flex; align-items: center; justify-content: center; font-size: 25px; border-radius: 50%; height: 50px; width: 50px;">
-         <a id="logo-container" href="http://noblockno.party" class="brand-logo"><i class='logo'></i>BlockParty</a>
+         <img size="50" src="/images/logo.png" style="color: rgb(255, 255, 255); margin-top:7px; width: 50px;">
+         <a id="logo-container" href="http://noblockno.party" class="brand-logo"><i class='logo'></i></a>
          <!-- <ul class="right hide-on-med-and-down">
            <li><a href="http://devcon3social.noblockno.party">DevCon3 social calendar</a></li>
          </ul>
@@ -52,16 +53,22 @@
      <div class="section no-pad-bot" id="index-banner">
        <div class="container">
          <br><br>
-         <h1 class="header center orange-text brand-logo">BlockParty</h1>
+         <img src="/images/kickback.png" style="display: inline-flex; align-items: center; justify-content: center; width: 100%;">
          <div class="row center">
-           <h5 class="header col s12 light">NO BLOCK NO PARTY!</h5>
+           <h5 class="header col s12 light">BlockParty is the past. Say hello to Kickback!</h5>
          </div>
-         <div class="row center">
-           <p class="light">You pay small deposit when you register. You lose your deposit if you do not turn up. You will get your deposit back + we split the deposit of whom did not turn up. You go to party and may end up getting more money.</p>
-         </div>
+         <div class="row">
+          <p class="light">
+             Event no shows? No problem. Meet KickBack—an Ethereum-based event management service that delivers higher event participation rates by asking registrants to put some skin in the game.
+          </p>
 
-         <div class="row center">
-           <img src="https://raw.githubusercontent.com/makoto/blockparty/master/src/images/diagram.png" width="90%" alt="">
+          <p class="light">
+            Everyone deposits a small amount of ETH when they RSVP, which is refunded after the event check-in. Any no-shows lose their deposit, which can then be split amongst the attendees, donated to charity, or applied to a future event. 
+          </p>
+
+          <p class="light">
+            Using KickBack helps you budget more effectively, guarantees higher turnout rates, and makes the RSVP process more fun.
+            </p>
          </div>
        </div>
      </div>
@@ -73,25 +80,28 @@
          <div class="row">
            <div class="col s12 m4">
              <div class="icon-block">
-               <h2 class="center light-blue-text"><i class="material-icons">people_outline</i></h2>
-               <h5 class="center">No more event squatters</h5>
+               <h2 class="center light-blue-text"><i class="material-icons">person_identity</i></h2>
+               <h5 class="center">For organisers</h5>
 
-               <p class="light">Have you ever encountered free party or meetup and realised that half the people registered did not actually turn up? BlockParty solves this problem by providing a simple incentive for people to register only if they mean it.</p>
+               <p class="light">Knowing the exact number of people who will show up at your event is hard to estimate. Often half of those who RSVP yes don’t show up at all. Using KickBack, you can improve your show/no-show ratio from 50% to 90% on average. This allows you to adjust your event cost accordingly, while improving the chance of filling your event to capacity.</p>
              </div>
            </div>
            <div class="col s12 m4">
              <div class="icon-block">
-               <h2 class="center light-blue-text"><i class="material-icons">date_range</i></h2>
-               <h5 class="center">Active since 2016</h5>
-               <p class="light">BlockParty is not Proof of Concept nor vaporware. It was first used at <a href="https://medium.com/noblocknoparty/party-dapp-at-devcon2-lessons-learned-abc21bbe8ede">DevCon2 in Shanghai</a> depositting real Ether, then have been used to manage local Ethereum meetups and social events.</p>
+               <h2 class="center light-blue-text"><i class="material-icons">people_identity</i></h2>
+               <h5 class="center">For sponsors</h5>
+               <p class="light">With our simple incentivisation model, you have a higher chance of connecting with the right audience — people who are interested, engaged and committed to attending.</p>
              </div>
            </div>
            <div class="col s12 m4">
              <div class="icon-block">
-               <h2 class="center light-blue-text"><i class="material-icons">explore</i></h2>
-               <h5 class="center">Event management with transparency.</h5>
+               <h2 class="center light-blue-text"><i class="material-icons">group_add</i></h2>
+               <h5 class="center">For participants.</h5>
 
-               <p class="light">Most meetup sites look as if there are lots of participants but half of the participants won't be there. On the other hand, Blockparty incentiveses people to only sign up when they mean to, leading to the great transparency</p>
+               <p class="light">Frustrated when you can’t get into a free meetup because the event is full? When you’re attending a KickBack powered event, you’ve got a far better chance of snagging a spot. Only those serious about attending take the time to RSVP and commit a small amount of ETH.
+
+                Check out upcoming KickBack powered events, see how it works for yourself, and maybe even earn a little extra ETH from those no-shows. 
+                </p>
              </div>
            </div>
          </div>
@@ -103,53 +113,32 @@
      <div class="section no-pad-bot" id="register-interest">
        <div class="container">
          <div class="row center">
-           <iframe width="560" height="315" src="https://www.youtube.com/embed/m8lLp42r7os?rel=0&amp;start=20" frameborder="0" allowfullscreen></iframe>
-         </div>
-
-         <div class="row center">
-           <a href="https://medium.com/noblocknoparty" id="download-button" class="btn-large waves-effect waves-light orange">Follow us on Medium</a>
+           <a href="https://goo.gl/forms/yv4p2poVTKRz8VRp1" id="download-button" class="btn-large waves-effect waves-light primary-color">Register your interest</a>
          </div>
        </div>
      </div>
 
-     <footer class="page-footer orange">
+     <footer class="page-footer primary-color">
        <div class="container">
          <div class="row">
            <div class="col l6 s12">
-             <h5 class="white-text">Made in London</h5>
-             <p class="grey-text text-lighten-4">
-               BlockParty has been used to manage events at London Ethereum CodeUp. If you happen to be in London, join <a href="http://meetup.com/london-ethereum-codeup/">our meetup</a>
-             </p>
            </div>
-           <div class="col l3 s12">
-             <h5 class="white-text">Connect</h5>
-             <ul>
+           <div>
+             <!-- <h5 class="white-text">Connect with us</h5> -->
+             <ul class="footer-links">
                <li><a class="white-text" href="https://medium.com/noblocknoparty">Medium</a></li>
-               <li><a class="white-text" href="http://github.com/makoto/blockparty">Github</a></li>
+               <li><a class="white-text" href="http://github.com/noblockbiparty">Github</a></li>
                <li><a class="white-text" href="https://twitter.com/noblocknoparty">Twitter</a></li>
                <li><a class="white-text" href="https://www.youtube.com/watch?v=m8lLp42r7os&list=PL8MwCJAiRUBJMy0yHYh3pE6HQnWdyODTy">YouTube</a></li>
-               <li><a class="white-text" href="https://goo.gl/forms/ea2kI2XKWz8DLezR2">Register your interest</a></li>
-             </ul>
-           </div>
-           <div class="col l3 s12">
-             <h5 class="white-text">Past events</h5>
-             <ul>
-               <li><a class="white-text" href="http://bit.ly/blckprty">DevCon2</a></li>
-               <li><a class="white-text" href="http://bit.ly/blckprtyedcon">EdCon</a></li>
-               <li><a class="white-text" href="http://ethldn201710.noblockno.party">Ethereum London</a></li>
-               <li><a class="white-text" href="http://codeupv23.noblockno.party">CodeUp</a></li>
              </ul>
            </div>
          </div>
        </div>
        <div class="footer-copyright">
          <div class="container">
-         Made by <a class="orange-text text-lighten-3" href="http://twitter.com/noblocknoparty">No block no party limited</a>
+           © 2018 No block no party ltd
          </div>
        </div>
-       <script type="text/javascript">
-          $(".button-collapse").sideNav();
-       </script>
      </footer>
    </body>
  </html>
