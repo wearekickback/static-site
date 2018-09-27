@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - "8.11.4"
+cache: yarn
+branches:
+  only:
+    - master
+deploy:
+  skip_cleanup: true
+  provider: surge
+  project: ./
+  domain: kickback.events
+  on:
+    branch: master
+notifications:
+  email:
+    - dev-notifications@noblockno.party
