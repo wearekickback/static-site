@@ -9409,12 +9409,3 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   stroke-linecap: round;
   /*shape-rendering: crispEdges;*/
 }
-
-.primary-color{  
-  background-color: #6E76FF;
-}
-
-ul.footer-links li{
-  display: inline;
-  margin:10px;
-}
