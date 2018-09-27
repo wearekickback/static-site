@@ -5,6 +5,8 @@ cache: yarn
 branches:
   only:
     - master
+script:
+  - echo "Nothing to build!"
 deploy:
   skip_cleanup: true
   provider: surge
