@@ -1,0 +1,17 @@
+.primary-color{
+  background-color: #6E76FF;
+}
+
+ul.footer-links li{
+  display: inline;
+  margin:10px;
+}
+
+.icon-image img {
+  height: 230px;
+  width: auto;
+}
+
+#register-interest {
+  margin-bottom: 60px;
+}
