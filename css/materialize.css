@@ -2561,7 +2561,7 @@ ul:not(.browser-default) > li {
 }
 
 a {
-  color: #039be5;
+  color: #6E76FF;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
@@ -9408,4 +9408,29 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   stroke-width: 4;
   stroke-linecap: round;
   /*shape-rendering: crispEdges;*/
+}
+
+p {
+  line-height: 1.7em;
+}
+
+.icon-image img{
+  border-radius: 50%;
+}
+
+.intro.intro {
+  max-width: 600px;
+  margin: 0 auto 0;
+}
+
+.team{
+  margin-bottom:1em;
+}
+
+.cta{
+  margin:1em;
+}
+
+a.cta:hover{
+  background-color: rgb(98,83,230);
 }
