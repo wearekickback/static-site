@@ -2887,7 +2887,7 @@ ul.staggered-list li {
   background-color: #ee6e73;
 }
 
-.page-footer .footer-copyright {
+.page-footer .footer-meta {
   overflow: hidden;
   min-height: 50px;
   display: -webkit-box;
@@ -4541,7 +4541,7 @@ small {
   font-size: 75%;
 }
 
-.light, .page-footer .footer-copyright {
+.light, .page-footer .footer-meta {
   font-weight: 300;
 }
 

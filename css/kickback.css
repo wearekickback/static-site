@@ -15,3 +15,11 @@ ul.footer-links li{
 #register-interest {
   margin-bottom: 60px;
 }
+
+.small {
+  font-size: 70%
+}
+
+.footer-meta p {
+  margin: 0 auto
+}
