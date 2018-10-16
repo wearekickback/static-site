@@ -7,13 +7,6 @@ branches:
     - master
 script:
   - echo "Nothing to build!"
-deploy:
-  skip_cleanup: true
-  provider: surge
-  project: ./
-  domain: kickback.events
-  on:
-    branch: master
 notifications:
   email:
     - dev-notifications@noblockno.party
